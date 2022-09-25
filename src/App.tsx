@@ -1,6 +1,7 @@
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld'
 import './App.css'
+import { RouterView } from 'vue-router';
 
 export default defineComponent({
   props: {
@@ -10,7 +11,7 @@ export default defineComponent({
 
     return () => (
       <>
-        <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+        <RouterView />
       </>
     )
   }
