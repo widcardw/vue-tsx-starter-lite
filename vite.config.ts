@@ -13,12 +13,12 @@ export default defineConfig({
     vueJsx(),
     Unocss(),
     Pages({
-        extensions: ['ts', 'js', 'tsx', 'jsx']
+      extensions: ['ts', 'js', 'tsx', 'jsx']
     }),
-],
+  ],
   resolve: {
     alias: {
-      '~/': path.resolve(__dirname, './src')
+      '~/': path.resolve(__dirname, 'src')
     }
   },
 })

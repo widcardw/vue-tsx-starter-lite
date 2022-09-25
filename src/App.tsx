@@ -1,5 +1,4 @@
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld'
 import './App.css'
 import { RouterView } from 'vue-router';
 

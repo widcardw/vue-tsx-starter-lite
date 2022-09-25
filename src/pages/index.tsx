@@ -1,6 +1,6 @@
 import { defineComponent } from "vue";
 import { RouterLink } from "vue-router";
-import HelloWorld from "../components/HelloWorld";
+import Counter from "../components/Counter";
 
 export default defineComponent({
     props: {},
@@ -8,7 +8,7 @@ export default defineComponent({
         return () => (
             <>
                 <RouterLink to="/new">index page</RouterLink>
-                <HelloWorld msg="this is index page" />
+                <Counter initValue={0} />
             </>
         )
     }
