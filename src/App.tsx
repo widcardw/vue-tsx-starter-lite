@@ -1,6 +1,7 @@
 import { defineComponent } from 'vue';
 import './App.css'
 import { RouterView } from 'vue-router';
+import ToggleDark from './components/ToggleDark';
 
 export default defineComponent({
   props: {
@@ -11,6 +12,7 @@ export default defineComponent({
     return () => (
       <>
         <RouterView />
+        <ToggleDark />
       </>
     )
   }
