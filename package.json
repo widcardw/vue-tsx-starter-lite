@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
     "lint": "eslint .",
     "serve": "vite preview"
   },
@@ -25,6 +26,8 @@
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "@vue/compiler-sfc": "^3.2.39",
     "eslint": "^8.24.0",
+    "jsdom": "^20.0.0",
+    "pnpm": "^7.12.2",
     "typescript": "^4.8.3",
     "unocss": "^0.45.22",
     "vite": "^3.1.3",

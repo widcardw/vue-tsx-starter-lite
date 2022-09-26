@@ -1,6 +1,5 @@
 import { defineComponent, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import Counter from '~/components/Counter'
 
 export default defineComponent({
   setup() {
@@ -17,9 +16,6 @@ export default defineComponent({
           +<span class="text-blue">TSX</span>
         </div>
         <p>Vue Tsx Template</p>
-        <div class="m-3">
-          <Counter class="btn" />
-        </div>
         <input
           v-model={name.value}
           placeholder="What's your name?"
