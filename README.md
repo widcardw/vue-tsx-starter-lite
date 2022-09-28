@@ -12,13 +12,12 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 - [x] Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - [x] TypeScript
 - [x] Vitest for unit and components testing
+- [x] Netlify deployment
 
 ### TODO
 
 - [ ] Tsx eslint support and format on save
-- [ ] Unocss attributify (tsx warns when using attributes that an html element does not have)
-- [ ] Netlify deployment
-
+- [ ] Unocss attributify (tsx warns when using attributes that a html element does not have)
 
 ## Pre-packed
 
