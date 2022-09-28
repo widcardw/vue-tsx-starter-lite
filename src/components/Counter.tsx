@@ -11,7 +11,7 @@ export default defineComponent({
       count.value++
     }
     return () => (
-        <button onClick={ withModifiers(inc, ['self']) }>count value is: {count.value}</button>
+        <button onClick={withModifiers(inc, ['self'])}>count value is: {count.value}</button>
     )
   },
 })
