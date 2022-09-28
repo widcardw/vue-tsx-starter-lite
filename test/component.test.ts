@@ -4,7 +4,6 @@ import Counter from '../src/components/Counter'
 
 describe('Counter.tsx', () => {
   it('should render', () => {
-    // TODO: Symbol('ssrContext') not found
     const wrapper = mount(Counter, { props: { initValue: 10 } })
     expect(wrapper.text()).toContain('10')
     expect(wrapper.html()).toMatchInlineSnapshot('"<button>count value is: 10</button>"')
