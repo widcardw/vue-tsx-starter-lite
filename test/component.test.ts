@@ -5,7 +5,15 @@ import Counter from '../src/components/Counter'
 describe('Counter.tsx', () => {
   it('should render', () => {
     // TODO: Symbol('ssrContext') not found
-    // const wrapper = mount(Counter, { props: { initValue: 10 } })
-    // expect(wrapper.text()).toMatchInlineSnapshot()
+    const wrapper = mount(Counter, { props: { initValue: 10 } })
+    expect(wrapper.text()).toContain('10')
+    expect(wrapper.html()).toMatchInlineSnapshot('"<button>count value is: 10</button>"')
+  })
+
+  it('should be interactive', async () => {
+    const wrapper = mount(Counter, { props: { initValue: 0 } })
+    expect(wrapper.text()).toContain('0')
+    await wrapper.get('button').trigger('click')
+    expect(wrapper.text()).toContain('1')
   })
 })
