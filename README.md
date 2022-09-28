@@ -16,7 +16,7 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 ### TODO
 
 - [ ] Tsx eslint support and format on save
-- [ ] Unocss attributify
+- [ ] Unocss attributify (tsx warns when using attributes that an html element does not have)
 - [ ] Netlify deployment
 
 
