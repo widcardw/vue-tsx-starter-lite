@@ -11,13 +11,14 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 - [x] Unocss - The instance on-demand atomic CSS
 - [x] Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - [x] TypeScript
+- [x] Vitest for unit and components testing
 
 ### TODO
 
 - [ ] Tsx eslint support and format on save
 - [ ] Unocss attributify
 - [ ] Netlify deployment
-- [ ] Vitest for unit and components testing
+
 
 ## Pre-packed
 
