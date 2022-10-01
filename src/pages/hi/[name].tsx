@@ -16,8 +16,8 @@ export default defineComponent({
         </div>
         <div>
           <button
-          class="btn m-3 text-sm"
-          onClick={() => router.back()}
+            class="btn m-3 text-sm"
+            onClick={() => router.back()}
           >
             Back
           </button>

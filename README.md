@@ -13,10 +13,10 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 - [x] TypeScript
 - [x] Vitest for unit and components testing
 - [x] Netlify deployment
+- [x] Tsx eslint support and format on save
 
 ### TODO
 
-- [ ] Tsx eslint support and format on save
 - [ ] Unocss attributify (tsx warns when using attributes that a html element does not have)
 
 ## Pre-packed
