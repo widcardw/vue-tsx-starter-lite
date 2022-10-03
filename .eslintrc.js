@@ -14,7 +14,7 @@ module.exports = {
   rules: {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
-    'react/no-unknown-property': ['error', { ignore: ['class', 'for'] }],
+    'react/no-unknown-property': [0, {}],
     'react/react-in-jsx-scope': [0, {}],
     'react/jsx-indent': [2, 2],
     'react/jsx-indent-props': [2, 2],

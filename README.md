@@ -42,7 +42,7 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 ### Clone to local
 
 ```sh
-npx degit widcardw/vue-tsx-template my-project
+npx degit widcardw/vue-tsx-starter-lite my-project
 cd my-project
 pnpm i
 ```
