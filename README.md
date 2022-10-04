@@ -17,7 +17,8 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 
 ### TODO
 
-- [ ] Unocss attributify (tsx warns when using attributes that a html element does not have)
+- [x] Unocss attributify
+    - [ ] TSX warns when using attributes that a html element does not have, you should add attr declaration in _env.d.ts_
 
 ## Pre-packed
 

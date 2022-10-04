@@ -5,12 +5,12 @@ export default defineComponent({
   setup() {
     return () => (
       <div
-        class="icon-btn"
+        icon-btn
         onClick={() => toggleDark()}
       >
         {!isDark.value
-          ? <div class="i-ri-sun-line" />
-          : <div class="i-ri-moon-line" />}
+          ? <div i-ri-sun-line />
+          : <div i-ri-moon-line />}
       </div>
     )
   },

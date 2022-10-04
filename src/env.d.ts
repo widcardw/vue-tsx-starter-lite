@@ -6,3 +6,18 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+import 'vue'
+
+declare module 'vue' {
+  interface HTMLAttributes {
+    p?: unknown
+    font?: unknown
+    text?: unknown
+    w?: unknown
+    bg?: unknown
+    border?: unknown
+    outline?: unknown
+    btn?: unknown
+  }
+}
