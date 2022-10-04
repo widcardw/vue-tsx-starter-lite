@@ -16,6 +16,10 @@ export default defineComponent({
           +<span text-blue>TSX</span>
         </div>
         <p>Vue Tsx Template</p>
+        {/** pass unocss classes with attributes
+           * However, you should add the attribute name to `env.d.ts`
+           * so that TSX does not warns.
+           */}
         <input
           v-model={name.value}
           placeholder="What's your name?"

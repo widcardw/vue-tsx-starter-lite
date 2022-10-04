@@ -7,10 +7,16 @@ export default defineComponent({
   setup() {
     return () => (
       <>
+        {/**
+           * @unocss/transformer-variant-group
+           * automatically transform variant group classes
+           */}
         <main
-          font="sans"
-          p="x-4 y-10"
-          text="center gray-700 dark:gray-200"
+          class={[
+            'text-(center gray-700) dark:text-gray-200',
+            'p-(x-4 y-10)',
+            'font-sans',
+          ]}
         >
           <RouterView />
           <ToggleDark />

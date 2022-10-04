@@ -5,6 +5,7 @@ import {
   presetUno,
   presetWebFonts,
   transformerAttributifyJsx,
+  transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
@@ -30,6 +31,7 @@ export default defineConfig({
   ],
   transformers: [
     transformerAttributifyJsx(),
+    transformerVariantGroup(),
   ],
 })
 

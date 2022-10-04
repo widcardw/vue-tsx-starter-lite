@@ -10,6 +10,7 @@ export default defineComponent({
     const router = useRouter()
     return () => (
       <>
+        {/* pass unocss classes through class attribute */}
         <p>Hi, {props.name}!</p>
         <div class="m-3">
           <Counter class="btn" />
